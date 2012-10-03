@@ -1,0 +1,13 @@
+{
+  "name"         : "blutrumpet",
+  "version"      : "0.0.1",
+  "description"  : "Server to server integration for the blutrumpet ad platform",
+  "keywords"     : ["blutrumpet"],
+  "homepage"     : "https://github.com/pcrawfor/blutrumpet",
+  "author"       : "Paul Crawford <paul@cometcoast.com> (http://cometcoast.com)",  
+  "main"         : "./lib/blutrumpet",
+  "directories"  : {"lib"  : "./lib"},
+  "repository"   : {"type" : "git",  "url": "https://github.com/pcrawfor/blutrumpet.git"},
+  "dependencies" : { "request": "2.9.100", "querystring": "0.1.0" },
+  "engines"      : {"node" : ">= 0.8.8"}
+}
