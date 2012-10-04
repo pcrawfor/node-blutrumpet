@@ -1,5 +1,8 @@
 # Blutrumpet - Node.js Library for interacting with the Blutrumpet ad conversion API
 
+Send conversions server to server to the blutrumpet servive.
+
+To send iOS conversions pass the udid parameter, for android pass the udid and alt_udid parameters to the sendConversion function.
 
 ## Installation
 
