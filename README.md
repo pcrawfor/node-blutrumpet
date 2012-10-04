@@ -15,4 +15,13 @@ Blutrumpet is available via npm
 ## Usage
 
     var bt = new Blutrumpet({guid: "your-guid-here"});
-    bt.sendiOSConversion({udid: "device-uid-here"});
+    bt.sendConversion({udid: "device-uid-here"});
+
+    // with callbacks
+    bt.sendConversion({udid: "device-uid-here"}, function(err, response){
+      if(err) {
+        console.log("Error: " + err);
+      }
+
+      // do something with response...
+    });
