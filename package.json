@@ -1,6 +1,6 @@
 {
   "name"         : "blutrumpet",
-  "version"      : "0.0.1",
+  "version"      : "0.0.2",
   "description"  : "Server to server integration for the blutrumpet ad platform",
   "keywords"     : ["blutrumpet"],
   "homepage"     : "https://github.com/pcrawfor/blutrumpet",
